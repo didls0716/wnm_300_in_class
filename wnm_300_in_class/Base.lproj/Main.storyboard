@@ -60,6 +60,9 @@
                                     <action selector="tap:" destination="BYZ-38-t0r" eventType="touchUpInside" id="ny6-YY-t7J"/>
                                 </connections>
                             </button>
+                            <stackView opaque="NO" contentMode="scaleToFill" ambiguous="YES" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="UAF-2J-bbP">
+                                <rect key="frame" x="132" y="466" width="110" height="200"/>
+                            </stackView>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
@@ -70,6 +73,7 @@
                             <constraint firstItem="zmu-AO-CPJ" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="16" id="mLd-yv-ASF"/>
                             <constraint firstItem="UL8-7S-UYk" firstAttribute="top" secondItem="zmu-AO-CPJ" secondAttribute="bottom" constant="17" id="ors-vH-znZ"/>
                             <constraint firstItem="KBW-3t-NOD" firstAttribute="top" secondItem="zmu-AO-CPJ" secondAttribute="bottom" constant="17" id="vQs-3g-gSK"/>
+                            <constraint firstItem="UAF-2J-bbP" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="132" id="xkQ-aI-8KN"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
@@ -79,6 +83,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="120.8" y="114.53201970443351"/>
         </scene>
     </scenes>
 </document>
